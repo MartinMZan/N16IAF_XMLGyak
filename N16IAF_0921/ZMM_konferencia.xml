@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<konferencia cim="Uzleti megbeszeles" helyszin="Miskolc" datum="szept. 21.">
+	<hallgatok>
+		<hallgato nev="Attila" lakcim="Miskolc"/>
+		<hallgato nev="Bela" lakcim="Kazincbarcika"/>
+	</hallgatok>
+	<eloado nev="Cecil" adoszam="1234" lakcim="Miskolc"/>
+	<eloado nev="Denes" adoszam="1235" lakcim="Eger"/>
+</konferencia>
