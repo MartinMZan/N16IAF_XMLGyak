@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<orarend>
+	<hetfo>
+		
+		<ora id="a" tipus="eloadas es gyakorlat">
+			<targy>Algoritmusok es vizsgalatuk</targy>
+			<idopont>
+				<nap>hetfo</nap>
+				<tol>8</tol>
+				<ig>12</ig>
+			</idopont>
+			<helyszin>A3. 313.</helyszin>
+			<oktato>Dr. Hazy Attila</oktato>
+			<szak>PTI</szak>
+		</ora>
+		<ora id="b" tipus="eloadas">
+			<targy>Web technologiak</targy>
+			<idopont>
+				<nap>hetfo</nap>
+				<tol>12</tol>
+				<ig>14</ig>
+			</idopont>
+			<helyszin>A1. 305.</helyszin>
+			<oktato>Agardi Anita</oktato>
+			<szak>PTI</szak>
+		</ora>
+		<ora id="c" tipus="eloadas">
+			<targy>Mesterseges intelligencia</targy>
+			<idopont>
+				<nap>hetfo</nap>
+				<tol>14</tol>
+				<ig>17</ig>
+			</idopont>
+			<helyszin>A1. magasfsz. XXXII.</helyszin>
+			<oktato>Dr. Dudas Laszlo</oktato>
+			<szak>PTI</szak>
+		</ora>
+		
+	</hetfo>
+
+	<kedd>
+
+		<ora id="d" tipus="eloadas">
+			<targy>Adatkezeles XML-ben</targy>
+			<idopont>
+				<nap>kedd</nap>
+				<tol>12</tol>
+				<ig>14</ig>
+			</idopont>
+			<helyszin>A2. fsz. I.</helyszin>
+			<oktato>Dr. Bednarik Laszlo</oktato>
+			<szak>PTI</szak>
+		</ora>
+
+		<ora id="e" tipus="gyakorlat">
+			<targy>Adatkezeles XML-ben</targy>
+			<idopont>
+				<nap>kedd</nap>
+				<tol>14</tol>
+				<ig>16</ig>
+			</idopont>
+			<helyszin>Info. 103.</helyszin>
+			<oktato>Dr. Bednarik Laszlo</oktato>
+			<szak>PTI</szak>
+		</ora>
+
+		<ora id="f" tipus="gyakorlat">
+			<targy>Web technologiak</targy>
+			<idopont>
+				<nap>kedd</nap>
+				<tol>16</tol>
+				<ig>18</ig>
+			</idopont>
+			<helyszin>Info. 103.</helyszin>
+			<oktato>Agardi Anita</oktato>
+			<szak>PTI</szak>
+		</ora>
+		
+	</kedd>
+
+	<szerda>
+
+		<ora id="g" tipus="gyakorlat">
+			<targy>Mesterseges intelligencia</targy>
+			<idopont>
+				<nap>szerda</nap>
+				<tol>13</tol>
+				<ig>14</ig>
+			</idopont>
+			<helyszin>Info. 15.</helyszin>
+			<oktato>Dr. Dudas Laszlo</oktato>
+			<szak>PTI</szak>
+		</ora>
+
+		<ora id="h" tipus="eloadas es gyakorlat">
+			<targy>Vallalati informacios rendszerek fejlesztese</targy>
+			<idopont>
+				<nap>szerda</nap>
+				<tol>16</tol>
+				<ig>20</ig>
+			</idopont>
+			<helyszin>Info. 103.</helyszin>
+			<oktato>Dr. Sasvari Peter Laszlo</oktato>
+			<szak>PTI</szak>
+		</ora>
+
+	</szerda>
+</orarend>
