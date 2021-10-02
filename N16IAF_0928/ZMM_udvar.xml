@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<!DOCTYPE udvar [
+	<!ELEMENT udvar (gazda,kutya,kakas,tyuk*)>
+	<!ATTLIST gazda nev ID #REQUIRED>
+	<!ATTLIST kutya nev ID #REQUIRED>
+	<!ATTLIST kakas id ID #REQUIRED>
+	<!ATTLIST tyuk ferj IDREF #IMPLIED>
+	<!ATTLIST diszno nev ID #REQUIRED>
+]>
+	
 <udvar>
 	<gazda nev="Alex"/>
 	<kutya nev="Nero"></kutya>

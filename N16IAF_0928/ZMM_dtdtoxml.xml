@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE minta SYSTEM "ZMM_ertodtd.dtd">
+
+<minta>
+	<A Aa="id1">
+		<Ab>
+			<Abx>data1</Abx>
+			<Aby>data2</Aby>
+		</Ab>
+		<Ac>
+			<Acd>data1</Acd>
+			<Ace>data2</Ace>
+		</Ac>
+	</A>
+	
+	<B Ba="id2" Bc="id3">
+		<Bb>
+			<Bbx>data1</Bbx>
+			<Bby>data2</Bby>
+		</Bb>
+	</B>
+	
+	<C Ca="id3">
+		<Cb>data1</Cb>
+	</C>
+	
+	<A_B A_B_a="id1" A_B_b="id2">
+		<A_Bc>data1</A_Bc>
+	</A_B>
+</minta>
