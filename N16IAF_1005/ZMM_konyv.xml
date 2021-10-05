@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<konyvek xsi:noNamespaceSchemaLocation="konyv.xsd">>
+	<konyv id="a">
+		<cim>Jogi adatbázisok és jogi forráskutatás - Gépek a jogban</cim>
+		<kiadasiev>2012</kiadasiev>
+		<kiado>Könyvudvar</kiado>
+		<szerzo>Ződi Zsolt</szerzo>
+		<absztrakt></absztrakt>
+	</konyv>
+	
+	<konyv id="b">
+		<cim>Netfüggők - Világhálótörténeti színezőkönyv</cim>
+		<kiadasiev>2016</kiadasiev>
+		<kiado>Könyvudvar</kiado>
+		<szerzo>Cseh András</szerzo>
+		<absztrakt></absztrakt>
+	</konyv>
+	
+	<konyv id="c">
+		<cim>A világháló nyelve</cim>
+		<kiadasiev>2004</kiadasiev>
+		<kiado>Könyvudvar</kiado>
+		<szerzo>Bódi Zoltán</szerzo>
+		<absztrakt></absztrakt>
+	</konyv>
+</konyvek>

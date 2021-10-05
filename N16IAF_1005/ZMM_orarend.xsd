@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/ZMM_orarend" xmlns:tns="http://www.example.org/ZMM_orarend" elementFormDefault="qualified">
+</schema>
+
+<xs:element name="orarend">
+	<xs:complexType>
+	<xs:sequence>
+	
+	<xs:element name="hetfo">
+		<xs:complexType>
+			<xs:element name="ora">
+				<xs:complexType>
+					<xs:element name="targy" type="xs:string" />
+					<xs:element name="idopont">
+						<xs:complexType>
+							<xs:element name="nap" type="xs:" />
+							<xs:element name="tol" />
+							<xs:element name="ig" />
+						</xs:complexType>
+					</xs:element>
+					<xs:element name="helyszin" />
+				</xs:complexType>
+			</xs:element>
+		</xs:complexType>
+	</xs:element>
+	
+	</xs:sequence>
+	</xs:complexType>
+</xs:element>
