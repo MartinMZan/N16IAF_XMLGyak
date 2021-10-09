@@ -1,29 +1,98 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/ZMM_orarend" xmlns:tns="http://www.example.org/ZMM_orarend" elementFormDefault="qualified">
-</schema>
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
 
-<xs:element name="orarend">
-	<xs:complexType>
-	<xs:sequence>
-	
-	<xs:element name="hetfo">
+	<xs:element name="orarend">
 		<xs:complexType>
-			<xs:element name="ora">
-				<xs:complexType>
-					<xs:element name="targy" type="xs:string" />
-					<xs:element name="idopont">
-						<xs:complexType>
-							<xs:element name="nap" type="xs:" />
-							<xs:element name="tol" />
-							<xs:element name="ig" />
-						</xs:complexType>
-					</xs:element>
-					<xs:element name="helyszin" />
-				</xs:complexType>
-			</xs:element>
+			<xs:sequence>
+
+				<xs:element name="hetfo">
+					<xs:complexType>
+						<xs:sequence>
+						<xs:element name="ora" maxOccurs="unbounded">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="targy" type="xs:string" />
+									<xs:element name="idopont">
+										<xs:complexType>
+											<xs:sequence>
+											<xs:element name="nap" type="xs:string" />
+											<xs:element name="tol" type="xs:int" />
+											<xs:element name="ig" type="xs:int"/>
+											</xs:sequence>
+										</xs:complexType>
+									</xs:element>
+									<xs:element name="helyszin" type="xs:string"/>
+									<xs:element name="oktato" type="xs:string"/>
+									<xs:element name="szak" type="xs:string"/>
+								</xs:sequence>
+								<xs:attribute name="id" type="xs:string"/>
+								<xs:attribute name="tipus" type="xs:string"/>
+							</xs:complexType>
+						</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+
+				<xs:element name="kedd">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ora" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="targy" type="xs:string" />
+										<xs:element name="idopont">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="nap" type="xs:string" />
+													<xs:element name="tol" type="xs:int" />
+													<xs:element name="ig" type="xs:int"/>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="helyszin" type="xs:string"/>
+										<xs:element name="oktato" type="xs:string"/>
+										<xs:element name="szak" type="xs:string"/>
+									</xs:sequence>
+									<xs:attribute name="id" type="xs:string"/>
+									<xs:attribute name="tipus" type="xs:string"/>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+
+				<xs:element name="szerda">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ora" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="targy" type="xs:string" />
+										<xs:element name="idopont">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="nap" type="xs:string" />
+													<xs:element name="tol" type="xs:int" />
+													<xs:element name="ig" type="xs:int"/>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="helyszin" type="xs:string"/>
+										<xs:element name="oktato" type="xs:string"/>
+										<xs:element name="szak" type="xs:string"/>
+									</xs:sequence>
+									<xs:attribute name="id" type="xs:string"/>
+									<xs:attribute name="tipus" type="xs:string"/>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+
+			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
 	
-	</xs:sequence>
-	</xs:complexType>
-</xs:element>
+</xs:schema>
