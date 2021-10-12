@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<nevjegykartyak>
+	<nevjegykartya>
+		<nev>Kiss Bela</nev>
+		<ceg>
+			<nev>KFT kft.</nev>
+			<cim>
+				<irsz>3525</irsz>
+				<varos>Miskolc</varos>
+				<utca>Petőfi sétány</utca>
+				<hsz>14</hsz>
+			</cim>
+			<telefonszam>64223</telefonszam>
+			<weblap>www.kft.kft.hu</weblap>
+		</ceg>
+		<beosztas>berszamfejto</beosztas>
+		<telefonszam>64332</telefonszam>
+		<email>kissbela@kftkft.hu</email>
+	</nevjegykartya>
+	
+	<nevjegykartya>
+		<nev>Nagy Anna</nev>
+		<ceg>
+			<nev>KFT kft.</nev>
+			<cim>
+				<irsz>3525</irsz>
+				<varos>Miskolc</varos>
+				<utca>Petőfi sétány</utca>
+				<hsz>14</hsz>
+			</cim>
+			<telefonszam>64223</telefonszam>
+			<weblap>www.kft.kft.hu</weblap>
+		</ceg>
+		<beosztas>kozepvezeto</beosztas>
+		<telefonszam>44432</telefonszam>
+		<email>nagyanna@kftkft.hu</email>
+	</nevjegykartya>
+</nevjegykartyak>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema
+    targetNamespace="http://www.w3schools.com/ZMM_orarend1"
+    elementFormDefault="qualified"
+    xmlns="http://www.w3schools.com/ZMM_orarend1.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+
+	<xs:element name="orarend">
+		<xs:complexType>
+			<xs:sequence>
+
+				<xs:element name="hetfo" type="naptipus"></xs:element>
+				<xs:element name="kedd" type="naptipus"></xs:element>
+				<xs:element name="szerda" type="naptipus"></xs:element>
+				
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:complexType name="naptipus">
+						<xs:sequence>
+						<xs:element name="ora" maxOccurs="unbounded" type="oratipus">
+						</xs:element>
+						</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="oratipus">
+								<xs:sequence>
+									<xs:element name="targy" type="xs:string" />
+									<xs:element name="idopont">
+										<xs:complexType>
+											<xs:sequence>
+											<xs:element name="nap" type="xs:string" />
+											<xs:element name="tol" type="xs:int" />
+											<xs:element name="ig" type="xs:int"/>
+											</xs:sequence>
+										</xs:complexType>
+									</xs:element>
+									<xs:element name="helyszin" type="xs:string"/>
+									<xs:element name="oktato" type="xs:string"/>
+									<xs:element name="szak" type="xs:string"/>
+								</xs:sequence>
+								<xs:attribute name="id" type="xs:string"/>
+								<xs:attribute name="tipus" type="xs:string"/>
+	</xs:complexType>
+
+
+	
+</xs:schema>
