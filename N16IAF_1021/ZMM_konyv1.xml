@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<konyvek>
+	<konyv isbn="9789633247006">
+		<cim>Harry Potter és a Halál ereklyéi</cim>
+		<szerzo>J. K. Rowling</szerzo>
+		<szereplo>
+			<nev>Ron</nev>
+			<baratja>Hermione</baratja>
+			<szuletett>1990</szuletett>
+			<jellemzes>Vörös hajú</jellemzes>
+		</szereplo>
+		<masikszereplo>
+			<nev>Hermione</nev>
+			<szuletett>1992</szuletett>
+			<jellemzes>Barna hajú</jellemzes>
+		</masikszereplo>
+	</konyv>
+</konyvek>

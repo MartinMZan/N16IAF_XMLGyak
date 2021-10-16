@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema targetNamespace="http://tempuri.org/XMLSchema.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/XMLSchema.xsd"
+    xmlns:mstns="http://tempuri.org/XMLSchema.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+
+	<xs:element name="konyvek" type="konyvek_tipus"/>
+
+	<xs:element name="cim_tipus" type="xs:string"/>
+	<xs:element name="szerzo_tipus" type="xs:string"/>
+	<xs:element name="nev_tipus" type="xs:string"/>
+	<xs:element name="baratja_tipus" type="xs:string"/>
+	<xs:element name="szuletett_tipus" type="xs:int"/>
+	<xs:element name="jellemzes_tipus" type="xs:string"/>
+	
+	<xs:complexType name="konyvek_tipus">
+		<xs:sequence>
+			<xs:element name="konyv" type="konyv_tipus"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="konyv_tipus">
+		<xs:sequence>
+			<xs:element ref="cim_tipus" />
+			<xs:element ref="szerzo_tipus" />
+			<xs:element name="szereplo" type="szereplo_tipus" />
+			<xs:element name="masikszereplo" type="masikszereplo_tipus" />
+		</xs:sequence>
+		<xs:attribute name="isbn" type="xs:string"/>
+	</xs:complexType>
+	
+	<xs:complexType name="szereplo_tipus">
+		<xs:sequence>
+			<xs:element ref="nev_tipus"/>
+			<xs:element ref="baratja_tipus"/>
+			<xs:element ref="szuletett_tipus"/>
+			<xs:element ref="jellemzes_tipus"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="masikszereplo_tipus">
+		<xs:sequence>
+			<xs:element ref="nev_tipus"/>
+			<xs:element ref="szuletett_tipus"/>
+			<xs:element ref="jellemzes_tipus"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>
