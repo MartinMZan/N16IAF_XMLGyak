@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE szemelyek
+[
+<!ELEMENT szemelyek (szemely+)>
+	<!ELEMENT szemely (nev,kor,varos)>
+		<!ATTLIST szemely id (#PCDATA) #IMPLIED>
+		<!ELEMENT nev (#PCDATA)>
+		<!ELEMENT kor (#PCDATA)>
+		<!ELEMENT varos (#PCDATA)>
+
+]>

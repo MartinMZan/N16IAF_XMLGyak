@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<szemelyek>
+	<szemely id="a">
+		<nev>Zan Martin</nev>
+		<kor>23</kor>
+		<varos>Miskolc</varos>
+	</szemely>
+		<szemely id="b">
+		<nev>Kiss Bela</nev>
+		<kor>21</kor>
+		<varos>Miskolc</varos>
+	</szemely>
+		<szemely id="c">
+		<nev>Nagy Júlia</nev>
+		<kor>25</kor>
+		<varos>Kazincbarcika</varos>
+	</szemely>
+</szemelyek>
