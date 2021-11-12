@@ -41,7 +41,7 @@ public class DomWriteN16IAF {
 		
 		DOMSource source = new DOMSource(doc);
 		
-		File myFile = new File("users1.xml");
+		File myFile = new File("src/users1.xml");
 		
 		StreamResult console = new StreamResult(System.out);
 		StreamResult file = new StreamResult(myFile);

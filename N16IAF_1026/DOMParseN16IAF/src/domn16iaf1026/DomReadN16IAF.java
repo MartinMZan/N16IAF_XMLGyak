@@ -15,7 +15,7 @@ public class DomReadN16IAF {
 		// TODO Auto-generated method stub
 		
 		// 2.
-		File xmlFile = new File("src/domn16iaf1026/usersN16IAF.xml");
+		File xmlFile = new File("src/usersN16IAF.xml");
 		
 		DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
 		
