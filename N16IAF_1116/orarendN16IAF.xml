@@ -3,8 +3,6 @@
 <?xml-stylesheet type = "text/xsl" href = "orarendN16IAF.xsl"?>
 
 <orarend>
-	<hetfo>
-		
 		<ora id="a" tipus="eloadas es gyakorlat">
 			<targy>Algoritmusok es vizsgalatuk</targy>
 			<idopont>
@@ -38,10 +36,6 @@
 			<oktato>Dr. Dudas Laszlo</oktato>
 			<szak>PTI</szak>
 		</ora>
-		
-	</hetfo>
-
-	<kedd>
 
 		<ora id="d" tipus="eloadas">
 			<targy>Adatkezeles XML-ben</targy>
@@ -78,10 +72,6 @@
 			<oktato>Agardi Anita</oktato>
 			<szak>PTI</szak>
 		</ora>
-		
-	</kedd>
-
-	<szerda>
 
 		<ora id="g" tipus="gyakorlat">
 			<targy>Mesterseges intelligencia</targy>
@@ -107,5 +97,4 @@
 			<szak>PTI</szak>
 		</ora>
 
-	</szerda>
 </orarend>
