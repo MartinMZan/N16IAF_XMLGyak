@@ -9,7 +9,6 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	
 	<table>
 	<xsl:for-each select="autok/auto">
-      <xsl:sort select="ar"/>
       <xsl:if test="ar &gt; 30000">
       <tr>
         <td><xsl:value-of select="@rsz"/></td>
