@@ -14,7 +14,7 @@ public class DomReadN16IAF {
 	public static void main(String[] args) throws ParserConfigurationException, SAXException, IOException {
 		// TODO Auto-generated method stub
 		
-		// File elérésének biztosítása, gyár létrehozása, DocumentBuilder létrehozása és maga a dokumentum létrehozása.
+		// File elérésének biztosítása, gyár létrehozása, DocumentBuilder létrehozása és maga a dokumentum (dom objektum) létrehozása.
 		File xmlFile = new File("D:\\Programming\\Github\\N16IAF_XMLGyak\\XMLTaskN16IAF\\XMLN16IAF.xml");
 		DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
 		DocumentBuilder dBuilder = factory.newDocumentBuilder();
@@ -43,7 +43,7 @@ public class DomReadN16IAF {
 				// Attribútum (jellemzõ) lekérdezése.
 				String uid = elem.getAttribute("ugyfel_azonosito");
 				
-				// Elemek lekérdezése.
+				// Név lekérdezése.
 				Node node1 = elem.getElementsByTagName("nev").item(0);
 				String name = node1.getTextContent();
 				
@@ -55,6 +55,7 @@ public class DomReadN16IAF {
 					bank = bank + " " + node2.getTextContent();
 				}
 				
+				// Címuket lekerdezzuk
 				Node node3 = elem.getElementsByTagName("cim").item(0);
 				String adress = node3.getTextContent();
 				
