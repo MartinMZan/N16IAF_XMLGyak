@@ -1,0 +1,36 @@
+<html>
+    <head>
+    
+	<meta charset="UTF-8">
+    
+    <script type="text/javascript">
+        function setContent(id, newvalue) {
+  var s = document.getElementById(id);
+  if (s.tagName.toUpperCase()==="INPUT") s.value = newvalue;
+  else s.innerHTML = newvalue;
+  
+}
+window.addEventListener("load", function() {
+array = 
+
+[
+   {
+      "author": "Nyékíné Dr. Gaizler Judit",
+      "language": "Java 2 I-II. - Útikalauz programozóknak 5.0"
+   },
+   {
+      "author": "Reiter István",
+      "language": "C# programozás lépésről lépésre"
+   }
+];
+
+
+  setContent("hey", "Language:" + array[0]['language'] + "<br></br>" + "Author:" + array[0]['author'] + "<br></br>" + "Language:" + array[1]['language'] + "<br></br>" + "Author:" + array[1]['author']);
+})
+    </script>
+    </head>
+    <body>
+    	<h1>JSON megvalósítása - Javascript</h1>
+        <div id="hey"></div>
+    </body>
+</html>
