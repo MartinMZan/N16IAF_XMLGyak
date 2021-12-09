@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<bank cegnev="OTP" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLSchemaN16IAF.xsd">
+	<cim>
+		<varos>Miskolc</varos>
+		<utca>Uitz Béla</utca>
+		<hazszam>6</hazszam>
+	</cim>
+	
+	<ugyfel ugyfel_azonosito="1">
+		<cim>
+			<varos>Ózd</varos>
+			<utca>József Attila</utca>
+			<hazszam>215</hazszam>
+		</cim>
+		<nev>Kulcsár Ádám</nev>
+		<bank>OTP</bank>
+	</ugyfel>
+
+	<ugyfel ugyfel_azonosito="2">
+		<cim>
+			<varos>Miskolc</varos>
+			<utca>Vörösmarty Mihály</utca>
+			<hazszam>454</hazszam>
+		</cim>
+		<nev>Szabó Henrietta</nev>
+		<bank>OTP</bank>
+		<bank>ERSTE</bank>
+	</ugyfel>
+
+	<banki_alkalmazott alkalmazott_azonosito="1">
+		<nev>Visegrádi Iván</nev>
+		<szuletesi_ev>1988</szuletesi_ev>
+		
+		<bankszamla bankszamla_szam="1343598542375482">
+			<egyenleg>540</egyenleg>
+			<penznem>EUR</penznem>
+			<korabbi_tranzakciok>-400</korabbi_tranzakciok>
+			<korabbi_tranzakciok>200</korabbi_tranzakciok>
+			
+			<bankkartya bankkartya_szam="5012443244328394">
+				<lejarati_datum>2022-08-30</lejarati_datum>
+				<cvckod>632</cvckod>
+				<ketkulcsos_azonosito>7892</ketkulcsos_azonosito>
+			</bankkartya>
+			
+		</bankszamla>
+		
+	</banki_alkalmazott>
+	
+	<banki_alkalmazott alkalmazott_azonosito="2">
+		<nev>Galambos Lajos</nev>
+		<szuletesi_ev>1965</szuletesi_ev>
+		
+		<bankszamla bankszamla_szam="1343698541375482">
+			<egyenleg>2200000</egyenleg>
+			<penznem>KRW</penznem>
+			
+			<bankkartya bankkartya_szam="1912443244328394">
+				<lejarati_datum>2024-11-21</lejarati_datum>
+				<cvckod>112</cvckod>
+				<ketkulcsos_azonosito>1234</ketkulcsos_azonosito>
+			</bankkartya>
+			
+		</bankszamla>
+
+		<bankszamla bankszamla_szam="1343498344375482">
+			<egyenleg>-54</egyenleg>
+			<penznem>HUF</penznem>
+			<korabbi_tranzakciok>-54</korabbi_tranzakciok>
+			
+			<bankkartya bankkartya_szam="1612475254308394">
+				<lejarati_datum>2019-11-21</lejarati_datum>
+				<cvckod>748</cvckod>
+			</bankkartya>
+
+		</bankszamla>
+		
+	</banki_alkalmazott>
+</bank>
